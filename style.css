@@ -1,0 +1,40 @@
+
+
+
+
+
+
+.caja-rodapie-datos-personales-desarrollador {
+    text-align: center;
+}
+
+footer {
+    color: #ffffff;
+    background: #000000;
+}
+
+li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    padding: 15px;
+}
+
+.Copyright{
+    text-decoration: none;
+    color: inherit; /* remove the color blue of link*/
+}
+
+.logo-organism {
+    background: transparent;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+}
+footer > div > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: lightgray;
+    text-align: center;
+    padding: 15px;
+}
