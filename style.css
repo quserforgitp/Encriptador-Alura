@@ -1,5 +1,13 @@
-/*              HEADER              */
+body {
+    background: #E5E5E5;
+}
 
+/*              HEADER              */
+header h1 {
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
 
 
 /*              MAIN              */
