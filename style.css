@@ -27,7 +27,7 @@ header h1 {
     font-weight: 400; /*same as normal and 700 = bold => 100 to 900*/
     color: #0A3871;   
 }
-.caja-texto::placeholder {
+.caja-texto::placeholder { /* using pseudoelement placeholder */
     opacity: 1;
 }
 
