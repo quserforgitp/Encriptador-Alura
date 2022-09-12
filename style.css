@@ -1,5 +1,4 @@
 /*              GENERAL              */
-
 body {
     background: #E5E5E5;
 }
@@ -13,11 +12,24 @@ header h1 {
 
 
 /*              MAIN              */
+.caja-texto-no-encriptado {
+    margin-top: 20px;
+    margin-left: 150px;
+}
 
+.caja-texto {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    resize: none; /* disappearing the resizable toggle from textarea */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400; /*same as normal and 700 = bold => 100 to 900*/
+    color: #0A3871;   
+}
 
 
 /*              FOOTER              */
-
 .caja-rodapie-datos-personales-desarrollador {
     text-align: center;
 }
