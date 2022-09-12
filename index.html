@@ -12,8 +12,9 @@
         <header>
             <h1><img src="src/img/aluraAlogo.png" alt="A del logo de Alura Latam"></h1>
         </header>
+
         <main>
-            <section>
+            <div class="caja-primer-seccion">
                 <div class="caja-texto-no-encriptado">
                     <textarea class="caja-texto" cols="30" rows="15" placeholder="Ingrese texto aqui"></textarea>
                 </div>    
@@ -24,13 +25,15 @@
                     <button class="boton-encriptar">Encriptar</button>
                     <button class="boton-desencriptar">Desencriptar</button>
                 </div>
-            </section>
-            <aside>
-                <div class="caja-texto-desencriptado">
-                    <textarea class="caja-texto" cols="30" rows="10"></textarea>
-                </div>
-            </aside>
+            </div>            
+            <div class="caja-texto-procesado">
+                <textarea class="caja-texto" cols="25" rows="18">
+                </textarea>
+                <p class="p-mensaje-no-encontrado">Ningún mensaje fué encontrado</p>
+                <p class="p-ingresa-texto">Ingresa el texto que desees encriptar o desecriptar</p>
+            </div>
         </main>
+
         <footer>
             <div class="caja-rodapie-datos-personales-desarrollador">
                 <ul>

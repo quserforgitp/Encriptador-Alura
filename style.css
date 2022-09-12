@@ -12,6 +12,12 @@ header h1 {
 
 
 /*              MAIN              */
+.caja-primer-seccion {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
 .caja-texto-no-encriptado {
     margin-top: 20px;
     margin-left: 150px;
@@ -80,6 +86,22 @@ header h1 {
 }
 .boton-desencriptar:hover{
     cursor: pointer;
+}
+
+.caja-texto-procesado {
+    display: inline;
+    width: 50%;
+    position: absolute;
+    margin-left: 200px;
+}
+.caja-texto-procesado textarea {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 26px;
+    text-align: center;
+    background-image: url(src/img/muneco.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
