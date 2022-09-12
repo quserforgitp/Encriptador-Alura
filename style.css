@@ -40,6 +40,44 @@ header h1 {
     opacity: 0.7;
 }
 
+.caja-botones {
+    margin-left: 150px;
+}
+
+.caja-botones button {
+    width: 250px;
+    height: 50px;
+    border-radius: 24px;
+    font-size: 15px;
+}
+
+.boton-encriptar {
+    background-color: #0A3871;
+    color: #ffffff;
+    border: none;
+}
+
+.boton-encriptar:active {
+    background-color: #021e3f;
+    cursor: pointer;
+}
+.boton-encriptar:hover {
+    cursor: pointer;
+}
+
+.boton-desencriptar {
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    margin-left: 24px;
+}
+
+.boton-desencriptar:active {
+    background-color: #a6b0bc;
+}
+.boton-desencriptar:hover{
+    cursor: pointer;
+}
 
 
 /*              FOOTER              */
