@@ -20,22 +20,22 @@
         <main>
             <div class="caja-primer-seccion">
                 <div class="caja-texto-no-encriptado">
-                    <textarea class="caja-texto" cols="30" rows="15" placeholder="Ingrese texto aqui"></textarea>
+                    <textarea class="caja-texto" cols="30" rows="15" placeholder="Ingrese texto aqui" id="input-text"></textarea>
                 </div>    
                 <div class="caja-advertencia">
                     <img src="src/img/advertencia.svg" alt="icono de advertencia color gris"><p>Solo letras minusculas y sin acentos</p>
                 </div>
                 <div class="caja-botones">
-                    <button class="boton-encriptar">Encriptar</button>
-                    <button class="boton-desencriptar">Desencriptar</button>
+                    <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="boton-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                 </div>
             </div>            
             <div class="caja-texto-procesado">
-                <textarea class="caja-texto" cols="25" rows="18" readonly>
+                <textarea class="caja-texto" cols="25" rows="18" readonly id="output-text">
                 </textarea>
                 <p class="p-mensaje-no-encontrado">Ningún mensaje fué encontrado</p>
                 <p class="p-ingresa-texto">Ingresa el texto que desees encriptar o desecriptar</p>
-                <button class="boton-copiar">Copiar</button>
+                <button class="boton-copiar" onclick="copiar()">Copiar</button>
             </div>
         </main>
 
