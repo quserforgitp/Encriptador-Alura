@@ -26,8 +26,8 @@
                     <img src="src/img/advertencia.svg" alt="icono de advertencia color gris"><p>Solo letras minusculas y sin acentos</p>
                 </div>
                 <div class="caja-botones">
-                    <button class="boton-encriptar">Encriptar</button>
-                    <button class="boton-desencriptar">Desencriptar</button>
+                    <button class="boton-encriptar" onclick="encriptarTexto()">Encriptar</button>
+                    <button class="boton-desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
                 </div>
             </div>            
             <div class="caja-texto-procesado">
@@ -35,7 +35,7 @@
                 </textarea>
                 <p class="p-mensaje-no-encontrado">Ningún mensaje fué encontrado</p>
                 <p class="p-ingresa-texto">Ingresa el texto que desees encriptar o desecriptar</p>
-                <button class="boton-copiar">Copiar</button>
+                <button class="boton-copiar" onclick="copiarTexto()">Copiar</button>
             </div>
         </main>
 
