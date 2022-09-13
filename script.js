@@ -88,6 +88,7 @@ function copiar() {
     navigator.clipboard.writeText(output.value)
     output.value = "";
     mostrarElementos();
-    alert("Texto Copiado")
+    btnCopiar.style.display = "none";
+    alert("Texto Copiado");
 }
 
