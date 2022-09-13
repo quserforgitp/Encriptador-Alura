@@ -93,15 +93,19 @@ header h1 {
     width: 50%;
     position: absolute;
     margin-left: 200px;
+    background-color: #FFFFFF;
+    max-width: 350px;
+    max-height: 800px;
+    border-radius: 26px;
 }
 .caja-texto-procesado textarea {
-    background-color: #FFFFFF;
+    background-color: transparent;
     border: none;
-    border-radius: 26px;
     text-align: center;
     background-image: url(src/img/muneco.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    margin-left: 15px;
 }
 .caja-texto-procesado p {
     position: absolute;
