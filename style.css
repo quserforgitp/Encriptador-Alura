@@ -1,6 +1,12 @@
 /*              GENERAL              */
+* { /* for the user cannot select any element to copy the text*/
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
 body {
-    background: #E5E5E5;
+    background: #E5E5E5;   
 }
 
 /*              HEADER              */
@@ -107,6 +113,9 @@ header h1 {
     background-size: contain;
     margin-left: 15px;
 }
+.caja-texto-procesado textarea:hover {
+    cursor: default;
+}
 .caja-texto-procesado p {
     position: absolute;
     color: #343A40;
@@ -115,7 +124,7 @@ header h1 {
 }
 
 .p-mensaje-no-encontrado {
-    left: 60px;
+    left: 80px;
     bottom: 100px;
     max-width: 200px;
     font-weight: bold;
@@ -127,9 +136,28 @@ header h1 {
     bottom: 40px;
     text-align: center;
     max-width: 300px;
-    left: 15px;
+    left: 30px;
     font-size: 15px;
     opacity: 0.8;
+}
+
+.boton-copiar {
+    position: absolute;
+    border: 1px solid #0A3871;
+    border-radius: 26px;
+    width: 120px;
+    height: 50px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    top: 430px;
+    right: 110px;
+    display: none;
+}
+.boton-copiar:hover {
+    cursor: pointer;
+}
+.boton-copiar:active {
+    background-color: #d0cdcd;
 }
 
 
